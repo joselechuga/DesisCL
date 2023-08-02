@@ -117,7 +117,9 @@
             <input type="submit" name="votar" id="votar" value="votar" />
         </div>
     </form>
-
+    <?php
+        include('php/registro.php');
+    ?>
     <!-- Libreria Jquery -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="assets/js/validaciones.js"></script>
