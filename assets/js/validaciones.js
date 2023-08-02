@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 
+
 /** Al dar click en el boton "VOTAR" se realizan las validaciones de los campos requeridos,
 	donde se encuentre una irregularidad se informará mediante una alerta de navegador, 
 	para finalizar haciendo focus en el campo / input especifico.
@@ -33,7 +34,7 @@ $(document).ready(function() {
 		}
 // VALIDAR ALIAS
 		if (!regularAlias.test(alias)) {
-			alert('El campo debe contener letras y números.');
+			alert('El campo ALIAS debe contener letras y números, EJ: Prueba123.');
 			$("input#alias").focus();
 			return false;
 		}
